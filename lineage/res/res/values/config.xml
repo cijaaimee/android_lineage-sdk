@@ -13,7 +13,7 @@
 
     <!-- Default values for status bar DT2S gesture -->
     <bool name="config_dt2sGestureAvailable">true</bool>
-    <bool name="config_dt2sGestureEnabledByDefault">true</bool>
+    <bool name="config_dt2sGestureEnabledByDefault">false</bool>
 
     <!-- Default values for LiveDisplay -->
     <bool name="config_enableLiveDisplay">true</bool>
@@ -178,7 +178,7 @@
          This needs to match the enums in
          sdk/src/java/org/lineageos/internal/util/DeviceKeysConstants.java.
     -->
-    <integer name="config_longPressOnHomeBehavior">3</integer>
+    <integer name="config_longPressOnHomeBehavior">0</integer>
 
     <!-- Control the behavior when the user double-taps the home button.
             0 - Nothing
